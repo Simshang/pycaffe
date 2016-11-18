@@ -2,12 +2,14 @@
 
 from caffe import layers as L, params as P, to_proto
 
-path = '/home/xxx/data/'  # 保存数据和配置文件的路径
-train_lmdb = path + 'train_db'  # 训练数据LMDB文件的位置
-val_lmdb = path + 'val_db'  # 验证数据LMDB文件的位置
+path = '/root/caffe/examples/cifar10/'  # 保存数据和配置文件的路径
+train_lmdb = path + 'cifar10_train_lmdb'  # 训练数据LMDB文件的位置
+val_lmdb = path + 'cifar10_test_lmdb'  # 验证数据LMDB文件的位置
 mean_file = path + 'mean.binaryproto'  # 均值文件的位置
-train_proto = path + 'train.prototxt'  # 生成的训练配置文件保存的位置
-val_proto = path + 'val.prototxt'  # 生成的验证配置文件保存的位置
+
+
+train_proto = path + 'train_shang.prototxt'  # 生成的训练配置文件保存的位置
+val_proto = path + 'val_shang.prototxt'  # 生成的验证配置文件保存的位置
 
 
 # 编写一个函数，用于生成网络
