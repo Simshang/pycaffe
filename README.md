@@ -1,5 +1,26 @@
 ### PyCaffe Code
 
-#### **createPrototxt**
+#### **createPrototxt.py**
 
-- 生成配置文件：train.prototxt和val.prototxt，分别用于训练阶段和验证阶段
+- 生成网络配置文件：train.prototxt和val.prototxt，分别用于训练阶段和验证阶段
+
+#### **createSolver.py**
+
+- 生成训练配置文件solver.prototxt, 用于配置训练过程中的各种参数
+
+#### **trainModel.py**
+
+- 训练模型的启动文件
+
+#### **mnist.py**
+
+- mnist实例
+
+#### **mnistClassifier.py**
+
+- 用新的图片测试mnist模型的分类效果
+
+
+
+
+

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import caffe
 # python file under the /root/caffe/
 

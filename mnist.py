@@ -4,8 +4,7 @@ import caffe
 from caffe import layers as L, params as P, proto, to_proto
 
 # 设定文件的保存路径
-root = '/root/caffe/examples/'
-  # 根目录
+root = '/root/caffe/examples/'  # 根目录
 train_list = root + 'mnist/train/train.txt'  # 训练图片列表
 test_list = root + 'mnist/test/test.txt'  # 测试图片列表
 train_proto = root + 'mnist/train.prototxt'  # 训练配置文件
