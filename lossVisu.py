@@ -3,17 +3,15 @@ import numpy
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-
 from matplotlib.pyplot import savefig
 import caffe
 
 caffe.set_device(0)
 caffe.set_mode_gpu()
-path = '/root/caffe/examples/'
-
+root = '/root/caffe/examples/'
 
 # 使用SGDSolver，即随机梯度下降算法
-solver = caffe.SGDSolver(path + 'mnist/solver.prototxt')
+solver = caffe.SGDSolver(root + 'mnist/solver.prototxt')
 
 # 等价于solver文件中的max_iter，即最大解算次数
 niter = 9380

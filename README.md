@@ -20,6 +20,13 @@
 
 - 用新的图片测试mnist模型的分类效果
 
+#### **lossVisu.py**
+
+- 可视化loss和acc
+
+#### **featureExtract.py**
+
+- 抽取相应网络层的参数和特征进行可视化
 
 
 
