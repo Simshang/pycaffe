@@ -21,9 +21,6 @@ ax2.plot(x,y, 'r')
 ax1.set_xlabel('iteration')
 ax1.set_ylabel('loss')
 ax2.set_ylabel('accuracy')
-# plt.show()
-# savefig('./loss.jpg')
 
-# plot(x, y, '--*b')
 
 savefig('./loss.jpg')
