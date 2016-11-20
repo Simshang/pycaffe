@@ -1,5 +1,7 @@
 ### PyCaffe Code
 
+我的博客中相关解析[PyCaffe in Practice](http://simtalk.cn/2016/10/28/PyCaffe-in-Practice/)
+
 #### **create_net.py**
 
 - 生成网络配置文件：train.prototxt和val.prototxt，分别用于训练阶段和验证阶段
